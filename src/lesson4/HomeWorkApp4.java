@@ -216,22 +216,22 @@ public class HomeWorkApp4 {
 
                     }
 
-//                    if(map[j][j]==MAP_ELEMENT_X){
-//                        countDiagonal1++;
-//                        diagonal1 = countDiagonal1 > diagonal1 ? countDiagonal1 : diagonal1;
-//                        if(diagonal1>max&&countDiagonal1<SIZE/2+1){
-//                            y=x;
-//                        }else if(diagonal1>max&&countDiagonal1>SIZE/2+1)y = random.nextInt(SIZE);
-//                        max = diagonal1 > max ? diagonal1 : max;
-//                        if(diagonal1>SIZE/2+1) max = 1;
-//
-//                    }
-//
-//                    if(map[SIZE-1-j][j]==MAP_ELEMENT_X){
-//                        countDiagonal2++;
-//                        diagonal2 = countDiagonal2 > diagonal2 ? countDiagonal2 : diagonal2;
-//                        max = diagonal2 > max ? diagonal2 : max;
-//                    }
+                    if(map[j][j]==MAP_ELEMENT_X){
+                        countDiagonal1++;
+                        diagonal1 = countDiagonal1 > diagonal1 ? countDiagonal1 : diagonal1;
+                        if(diagonal1>max&&countDiagonal1<SIZE/2+1){
+                            y=x;
+                        }else if(diagonal1>max&&countDiagonal1>SIZE/2+1)y = random.nextInt(SIZE);
+                        max = diagonal1 > max ? diagonal1 : max;
+                        if(diagonal1>SIZE/2+1) max = 1;
+
+                    }
+
+                    if(map[SIZE-1-j][j]==MAP_ELEMENT_X){
+                        countDiagonal2++;
+                        diagonal2 = countDiagonal2 > diagonal2 ? countDiagonal2 : diagonal2;
+                        max = diagonal2 > max ? diagonal2 : max;
+                    }
                 }
             }
             System.out.println(line+" "+column+" "+diagonal1+" "+diagonal2+" "+max);
