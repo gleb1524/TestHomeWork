@@ -18,7 +18,7 @@ public class HomeWorkApp5 {
                 "kozal@mail.ru", 8.9333333333, 30000, 25);
 
         for (Employee person : empl){
-            if(person.getAge()>40) person.infoEmployee(person);
+            if(person.getAge()>40) person.infoEmployee();
         }
 
     }
