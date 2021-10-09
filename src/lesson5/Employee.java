@@ -24,7 +24,7 @@ public class Employee {
         return this.age;
     }
 
-    public void infoEmployee(Employee employee){
+    public void infoEmployee(){
         System.out.println(full_name+" "+position+" "+email+" "+tel+" "+salary+" "+age);
     }
 
