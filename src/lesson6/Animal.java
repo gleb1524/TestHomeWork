@@ -3,11 +3,7 @@ package lesson6;
 public class Animal {
 
     String name;
-    Animal animal ;
-
-    int catCount;
-    int dogCount;
-  //  int animalCount;
+    
     public Animal(String name){
         this.name = name;
         animalCounter();
@@ -28,9 +24,5 @@ public class Animal {
         HomeWorkApp6.animaCount++;
 
     }
-
-
-
-
 
 }
