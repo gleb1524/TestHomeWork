@@ -9,9 +9,6 @@ public class Animal {
         animalCounter();
     }
 
-
-
-
     public void swim(int length){
         System.out.println(name + " проплыл " + length + "м.");
     }

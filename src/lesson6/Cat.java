@@ -2,8 +2,6 @@ package lesson6;
 
 public class Cat extends Animal {
 
-    int catCount;
-
     public Cat(String name){
         super(name);
     }
@@ -27,7 +25,4 @@ public class Cat extends Animal {
         HomeWorkApp6.catCount++;
     }
 
-
-
-
-    }
+}

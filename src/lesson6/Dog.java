@@ -1,12 +1,10 @@
 package lesson6;
 
 public class Dog extends Animal{
-    int age =5;
-    int dogCount;
+
     public Dog(String name){
 
      super(name);
-
 
     }
 
