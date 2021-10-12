@@ -19,6 +19,8 @@ public class HomeWorkApp6 {
         dog.run(600);
 
         System.out.println(animaCount+" "+dogCount+" "+catCount);
+
+
     }
 
     static int animaCount;
