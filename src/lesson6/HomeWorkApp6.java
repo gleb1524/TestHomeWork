@@ -4,8 +4,6 @@ public class HomeWorkApp6 {
 
     public static void main(String[] args) {
 
-
-
         Dog dog = new Dog("Bobok");
         dog.swim(100);
 
