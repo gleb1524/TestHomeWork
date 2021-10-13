@@ -1,23 +1,19 @@
 package lesson6;
 
-public class Animal {
+abstract class Animal {
 
-    String name;
+  protected String name;
     
     public Animal(String name){
         this.name = name;
         animalCounter();
     }
 
-    public void swim(int length){
-        System.out.println(name + " проплыл " + length + "м.");
-    }
+    abstract void swim(int length);
 
-    public void run(int length){
-        System.out.println(name + " пробежал " + length + "м.");
-    }
+    abstract void run(int length);
 
-    public void animalCounter(){
+    protected void animalCounter(){
         HomeWorkApp6.animaCount++;
 
     }
